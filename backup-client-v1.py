@@ -4,7 +4,7 @@ import shutil
 import multiprocessing
 import requests
 
-ca
+
 def init() :
     url = ['http://172.172.172.1:8000/file.txt', 'http://172.172.172.1:8000/content.txt']
     download_file = requests.get(url[0], stream=True)
